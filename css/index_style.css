@@ -20,6 +20,10 @@ header ul li {
 	color: #ffffff;
 	}
 
+header .headerbg {
+	background-image: url(../img/headerbg.jpg);
+	}
+
 body {
 	flex-direction: column;
 	padding: 0;
