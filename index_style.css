@@ -1,0 +1,119 @@
+/* --------------------------------------------NORMAL RULES------------------------------------------------------------*/
+/* --------------------------------------------NORMAL RULES------------------------------------------------------------*/
+body, main {
+	display: flex;
+}
+
+header {
+	width: 100%;
+	background-color: #394648;
+	padding-top: 20rem;
+	opacity: 2%;
+	background-image: url(https://images.pexels.com/photos/164697/pexels-photo-164697.jpeg?cs=srgb&dl=backpack-bench-guitar-164697.jpg&fm=jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	filter: contrast(85%);
+	}
+
+
+body {
+	flex-direction: column;
+	padding: 0;
+	margin: 0;
+}
+
+main {
+	flex: auto;
+	flex-direction: row;
+}
+
+
+	article {
+		overflow-y: auto;
+		flex: 2;
+		margin-left: 50px;
+
+	}
+	aside {
+		overflow-y: auto;
+		flex: 1;
+	}
+
+	li {
+		list-style-type: none;
+	}
+
+ /* ---------------------------------------------desplegable------------------------------------------*/
+ /* ---------------------------------------------desplegable------------------------------------------*/
+.menu {
+	width: 35px;
+	height: 45px;
+	background: #394648;
+	border-radius: 0.5rem;
+	position: fixed;
+	vertical-align: middle;
+	top: 50%;
+	left: 0.5%;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	transition: left 0.6s;
+}
+.menu:hover {
+	background-color: black;
+	transform: scale(1.1);
+}
+.checkbox:checked ~ .menu {
+    left: 10%;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+.l_panel {
+	width: 10%;
+	height: 100%;
+	background-color: #5FB49C;
+	position: fixed;
+	top: 0;
+	left: -10%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transition: 0.4s;
+}
+.checkbox:checked ~ .l_panel {
+	left: 0;
+}
+.checkbox {
+	display: none;
+}
+ /* ---------------------------------------------Fin del desplegable---394648---------------------------------------*/
+
+/* ----------------------------------------------HeaderStyles------------------------------------------------------------*/
+header {
+	display: flex;
+	flex-direction: column;
+}
+	ul {
+		padding: 0;
+		margin: 0;
+	}	
+	.headerlinks{
+	padding: 10px 50px;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	transition: background-color 0.6s;
+	border-radius: 5px;
+}
+	.headerlinks:hover{
+		background-color: black;
+		transition: background-color black;
+	}
+
+	}
+	.uno{
+		order: 3;
+
+	}
+/* ----------------------------------------------Principal icon------------------------------------------------------------*/
