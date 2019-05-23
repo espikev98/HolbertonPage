@@ -1,0 +1,140 @@
+/* --------------------------------------------NORMAL RULES------------------------------------------------------------*/
+/* --------------------------------------------NORMAL RULES------------------------------------------------------------*/
+body, main {
+	display: flex;
+}
+
+header {
+	width: 100%;
+	background-color: #394648;
+	padding-top: 20rem;
+	background-image: url(https://images.pexels.com/photos/1545333/pexels-photo-1545333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: bottom;
+	filter: contrast(80%);
+	}
+
+
+body {
+	flex-direction: column;
+	padding: 0;
+	margin: 0;
+}
+
+main {
+	flex: auto;
+	flex-direction: row;
+}
+
+
+	article {
+		overflow-y: auto;
+		flex: 2;
+		margin-left: 100px;
+		margin-right: 50px;
+		margin-top: 25px;
+
+	}
+	aside {
+		margin-top: 25px;
+		overflow-y: auto;
+		flex: 1;
+	}
+
+	li {
+		list-style-type: none;
+	}
+
+ /* ---------------------------------------------desplegable------------------------------------------*/
+ /* ---------------------------------------------desplegable------------------------------------------*/
+.menu {
+	width: 35px;
+	height: 45px;
+	background: #23395B;
+	border-radius: 0.5rem;
+	position: fixed;
+	vertical-align: middle;
+	top: 50%;
+	left: 0.4%;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	transition: left 0.6s;
+}
+.menu:hover {
+	background-color: black;
+	transform: scale(1.1);
+}
+.checkbox:checked ~ .menu {
+    left: 10%;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+.panelref{
+	letter-spacing: 3px;
+	font-size: 15px;
+	font-family: lucida Grande;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	text-align: center;
+	width: 55%;
+	color: white;
+	text-decoration: none;
+	padding: 20px 30px;
+	transition: background-color 0.7s;
+}
+.panelref:hover{
+	background-color: #14CC60;
+}
+
+.l_panel {
+	width: 10%;
+	height: 100%;
+	background-color: #001011;
+	position: fixed;
+	top: 0;
+	left: -10%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transition: 0.4s;
+}
+.checkbox:checked ~ .l_panel {
+	left: 0;
+}
+.checkbox {
+	display: none;
+}
+ /* ---------------------------------------------Fin del desplegable---394648---------------------------------------*/
+
+/* ----------------------------------------------HeaderStyles------------------------------------------------------------*/
+	ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around; 
+	padding: 0;
+	margin: 0;
+	}	
+	.headerlinks{
+		font-family: Lucida Grande;
+		letter-spacing: 3px;
+		padding: 10px 50px;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+		color: white;
+		transition: background-color 0.6s;
+		border-radius: 5px;
+}
+	.headerlinks:hover{
+		background-color: black;
+		transition: background-color black;
+	}
+
+/* ----------------------------------------------Main-article------------------------------------------------------------*/
+/* ----------------------------------------------Main-article------------------------------------------------------------*/
+/* ----------------------------------------------Main-article------------------------------------------------------------*/
+article {
+	text-align: justify;
+}
