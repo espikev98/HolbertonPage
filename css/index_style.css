@@ -6,9 +6,9 @@ body, main {
 
 header {
 	width: 100%;
+	height: 50px;
 	background-color: #394648;
 	padding-top: 20rem;
-	background-image: url(https://images.pexels.com/photos/1545333/pexels-photo-1545333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: bottom;
