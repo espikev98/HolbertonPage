@@ -6,15 +6,20 @@ body, main {
 
 header {
 	width: 100%;
-	height: 50px;
 	background-color: #394648;
-	padding-top: 20rem;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: bottom;
 	filter: contrast(80%);
 	}
-
+header ul {
+	height: 50px;
+	background-color: #0000000
+	}
+header ul li {
+	list-style-type: none;
+	color: #ffffff;
+	}
 
 body {
 	flex-direction: column;
@@ -28,22 +33,17 @@ main {
 }
 
 
-	article {
-		overflow-y: auto;
-		flex: 2;
-		margin-left: 100px;
-		margin-right: 50px;
-		margin-top: 25px;
-
+article {
+	overflow-y: auto;
+	flex: 2;
+	margin-left: 100px;
+	margin-right: 50px;
+	margin-top: 25px;
 	}
-	aside {
-		margin-top: 25px;
-		overflow-y: auto;
-		flex: 1;
-	}
-
-	li {
-		list-style-type: none;
+aside {
+	margin-top: 25px;
+	overflow-y: auto;
+	flex: 1;
 	}
 
  /* ---------------------------------------------desplegable------------------------------------------*/
