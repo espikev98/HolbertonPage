@@ -5,17 +5,16 @@ body, main {
 }
 
 header {
+	height: auto;
 	width: 100%;
-	background-color: #394648;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: bottom;
-	filter: contrast(80%);
+	background-color: #000000;
 	}
+
 header ul {
 	height: 50px;
 	background-color: #0000000
 	}
+
 header ul li {
 	list-style-type: none;
 	color: #ffffff;
